@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <nav class="navbar sm:navbar-expand bg-1 fg-2" data-bs-theme="light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logos/logo.png" width="200px">
+                </a>
+                <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" aria-hidden="true"></span>
+                </button>
+                <dialog class="drawer drawer-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+                    <div class="drawer-header">
+                        <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+                    </div>
+                    <div class="drawer-body">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">ទំព័រដើម</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="product.html">ផលិតផល</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">អំពួកយើង</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">ទំនាក់ទំនង</a>
+                            </li>
+                        </ul>
+                    </div>
+                </dialog>
+            </div>
+        </nav>
+    </header>
+
+    <div id="carouselExampleInterval" class="carousel carousel-fade slide" data-bs-autoplay="true">
+        <div class="carousel-inner rounded-5">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="assets/images/banners/b1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="assets/images/banners/b2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="6000">
+                <img src="assets/images/banners/b3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="6000">
+                <img src="assets/images/banners/b4.png" class="d-block w-100" alt="...">
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-between align-items-center mt-3">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <button class="btn-icon btn-sm carousel-control-play-pause" type="button"
+                data-bs-target="#carouselExampleInterval" aria-label="Pause" data-bs-pause-label="Pause"
+                data-bs-play-label="Play">
+                <span class="carousel-icon-pause" aria-hidden="true"></span>
+                <span class="carousel-icon-play" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+    <!--end header section -->
+    <!-- body section -->
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-1 bg-danger">col-1</div>
+            <div class="col-1 bg-success">col-1</div>
+            <div class="col-1 bg-danger">col-1</div>
+            <div class="col-1 bg-success">col-1</div>
+            <div class="col-1 bg-danger">col-1</div>
+            <div class="col-1 bg-success">col-1</div>
+            <div class="col-1 bg-danger">col-1</div>
+            <div class="col-1 bg-success">col-1</div>
+            <div class="col-1 bg-danger">col-1</div>
+            <div class="col-1 bg-success">col-1</div>
+            <div class="col-1 bg-danger">col-1</div>
+            <div class="col-1 bg-success">col-1</div>
+        </div>
+        <div class="row">
+            <div class="col-4 bg-primary">col-4</div>
+            <div class="col-4 bg-warning">col-4</div>
+            <div class="col-4 bg-primary">col-4</div>
+        </div>
+        <div class="row">
+            <div class="col-3 bg-warning">col-3</div>
+            <div class="col-9 bg-success">col-9</div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-4 bg-warning">col-4</div>
+            <div class="col-8 bg-success">col-8</div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-6 bg-warning">col-6</div>
+            <div class="col-6 bg-success">col-6</div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-12 bg-success">col-12</div>
+        </div>
+
+    </div> -->
+    <!-- <div class="contain-fluid bg-success">
+        <h2>heading 2</h2>
+    </div> -->
+    <div class="container">
+        <h3 class="text-center mb-10">ប្រភេទផលិតផល</h3>
+        <div class="row g-3">
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <div class="card cate_img">
+                    <img src="assets/images/categories/lap.png" class="card-image-top w-100">
+                    <div class="card-body">
+                        <a href="laptop.html" class="card-title">កុំព្យូទ័រ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <div class="card cate_img">
+                    <img src="assets/images/categories/access.png" class="card-image-top w-100">
+                    <div class="card-body">
+                        <a href="accessory.html" class="card-title">គ្រឿងបន្ថែម</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <div class="card cate_img">
+                    <img src="assets/images/categories/des.png" class="card-image-top w-100">
+                    <div class="card-body">
+                        <a href="desktop.html" class="card-title">កុំព្យូទ័រលើតុ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <div class="card cate_img">
+                    <img src="assets/images/categories/monitor.png" class="card-image-top w-100">
+                    <div class="card-body">
+                        <a href="monitor.html" class="card-title">អេក្រង់កុំព្យូទ័រ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <div class="card cate_img">
+                    <img src="assets/images/categories/component.png" class="card-image-top w-100">
+                    <div class="card-body">
+                        <a href="component.html" class="card-title">គ្រឿងបង្គុំកុំព្យូទ័រ</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 sm:col-6 md:col-4 lg:col-3 xl:col-2">
+                <div class="card cate_img">
+                    <img src="assets/images/categories/network.png" class="card-image-top w-100">
+                    <div class="card-body">
+                        <a href="network.html" class="card-title">គ្រឿងអ៊ីនធឺណិត</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="map mt-10">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.6967908129695!2d104.88129427449813!3d11.5735805439857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951ed9e42dae3%3A0x339838740686d54c!2sBuild%20Bright%20University%20Sen%20Sok!5e0!3m2!1sen!2skh!4v1794799884217!5m2!1sen!2skh"
+                width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        <div class="b-example-divider"></div>
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 md:col-4 d-flex align-items-center">
+                    <a href="index.html" class="mb-3 me-2 md:mb-0 fg-2 text-decoration-none lh-1"
+                        aria-label="Bootstrap">
+                        <img src="assets/images/logos/logo.png" width="100%">
+                    </a><span class="mb-3 md:mb-0 fg-2">© 2026 Company, Inc</span>
+                </div>
+                <div class="col-6 md:col-2 mb-3">
+                    <h5>Quick Access</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fg-2">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fg-2">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fg-2">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fg-2">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 fg-2">About</a></li>
+                    </ul>
+                </div>
+                <div class="md:col-5 md:offset-1 mb-3">
+                    <form>
+                        <h5>Subscribe to our newsletter</h5>
+                        <p>Monthly digest of what's new and exciting from us.</p>
+                        <div class="d-flex flex-column sm:flex-row w-100 gap-2"><label for="newsletter1"
+                                class="visually-hidden">Email address</label><input id="newsletter1" type="email"
+                                class="form-control" placeholder="Email address"><button class="btn-solid theme-primary"
+                                type="button">Subscribe</button></div>
+                    </form>
+                </div>
+            </div>
+            <div class="d-flex flex-column sm:flex-row justify-content-between py-4 my-4 border-top">
+                <p>© 2026 BBU, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="theme-inverse" href="#" aria-label="Instagram"><svg class="bi" width="24"
+                                height="24">
+                                <use href="#instagram"></use>
+                            </svg></a></li>
+                    <li class="ms-3"><a class="theme-inverse" href="#" aria-label="Facebook"><svg class="bi" width="24"
+                                height="24" aria-hidden="true">
+                                <use href="#facebook"></use>
+                            </svg></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
